@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+.active {
+  background-color: blue;
+}
+
+.table {
+  border: 5px solid black;
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+}
